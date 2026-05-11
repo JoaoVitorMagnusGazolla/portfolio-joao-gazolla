@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - João Gazolla</title>
+    <!--link do css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Cabeçalho com o menu de navegação principal do site -->
+    <header>
+        <h1>João Vítor Magnus Gazolla</h1>
+        <p>Portfólio pessoal | Tecnologia | Infraestrutura | Segurança da Informação</p>
+
+        <nav>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#formacao">Formação</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+<!--Seção sobre mim-->
+    <main>
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+            <p>
+                Sou estudante de Ciência da Computação com foco em Segurança da Informação,
+                atuando como Assistente de TI em ambiente corporativo.
+                Possuo experiência prática em suporte técnico N1, infraestrutura, 
+                redes e manutenção de ambientes Windows e Linux, 
+                além de vivência com processos corporativos e atendimento a usuários.
+            </p>
+            <p>
+                Tenho conhecimentos em fundamentos de segurança, Blue Team, redes, firewall,
+                VPN e boas práticas de proteção de sistemas,
+                bem como familiaridade com ferramentas de segurança e automação em Python.
+                Atuo no diagnóstico e resolução de problemas, manutenção de equipamentos,
+                controle de ativos e apoio à estabilidade dos ambientes tecnológicos.
+            </p>
+            <p>
+                Estou em constante evolução técnica, aprofundando meus conhecimentos em Segurança da Informação,
+                com interesse especial em proteção, monitoramento e resposta a incidentes em ambientes corporativos.
+            </p>
+        </section>
+<!--Seção formação-->
+        <section id="formacao">
+            <h2>Formação</h2>
+            <p>
+                Atualmente estudo Ciência da Computação e o foco dos meus estudos extracurriculares
+                tem sido em cibersegurança e infraestrutura.
+            </p>
+            <p>
+                Idiomas: Português nativo e conhecimentos básicos em inglês técnico.
+            </p>
+        </section>
+<!--Seção Portfólio-->
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <p>
+                Estou iniciando meus estudos em desenvolvimento web. Abaixo estão alguns projetos
+                e funcionalidades desenvolvidas durante meu aprendizado.
+            </p>
+
+            <div class="caixa-projeto">
+                <h3>Portfólio Pessoal</h3>
+                <p>
+                    Site pessoal desenvolvido com HTML5, CSS3 e JavaScript para apresentar minhas
+                    informações, formação, experiências e formas de contato.
+                </p>
+                <a href="https://github.com/" target="_blank">Ver meu GitHub</a>
+            </div>
+
+            <div class="caixa-projeto">
+                <h3>Formulário com Validação</h3>
+                <p>
+                    Formulário de contato com validação de nome, e-mail e mensagem utilizando JavaScript.
+                </p>
+                <a href="#contato">Ver formulário</a>
+            </div>
+
+            <div class="caixa-projeto">
+                <h3>Currículo Online</h3>
+                <p>
+                    Página de apresentação pessoal em formato de currículo online, criada para praticar
+                    estruturação de conteúdo com HTML e estilização com CSS.
+                </p>
+                <a href="#sobre">Ver apresentação</a>
+            </div>
+        </section>
+<!--Seção de contato-->
+        <section id="contato">
+            <h2>Contato</h2>
+
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <p id="mensagem-retorno"></p>
+        </section>
+    </main>
+<!--Rodapé da pagina-->
+    <footer>
+        <p>&copy; 2026 - João Gazolla</p>
+    </footer>
+<!--link do script file-->
+    <script src="script.js"></script>
+</body>
+</html>
